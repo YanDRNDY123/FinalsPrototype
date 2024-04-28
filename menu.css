@@ -1,0 +1,146 @@
+.menu
+{
+    padding-top: 400px;
+}
+
+.menus
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    column-gap: 30px;
+    margin-bottom: 300px;
+    row-gap: 100px;
+}
+
+
+.top
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 130px;
+}
+
+.pic-menu
+{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.menu-pic
+{
+    width: 200px;
+}
+
+.price
+{
+    text-align: center;
+    font-size: 30px;
+}
+
+.bottom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 130px;
+}
+
+.footer
+{
+    padding-top: 30px;
+}
+
+.bg-separate
+{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+.card-body
+{
+    width: 262px;
+    background-color: white;
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.Mocha
+{
+    width: 100%;
+    height: 292px;
+}
+
+.card-cont
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px 10px 15px;
+}
+
+.buy-now-button
+{
+    text-align: center;
+}
+
+.menu-name
+{
+    font-family: Roboto Serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #591F0B;
+}
+
+.price
+{
+    font-family: Roboto Serif;
+    font-size: 20px;
+    color: #591F0B;
+}
+
+.buy-button
+{
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    color: white;
+    border: none;
+    background-color: #591F0B;
+    margin-top: 15px;
+    transition: background-color 0.16s, color 0.16s;
+}
+
+.buy-button:hover
+{
+    background-color: white;
+    color: rgb(89, 31, 11);
+    cursor: pointer;
+}
+
+.To-Browsing
+{
+    padding: 15px 40px 15px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    color: rgb(255, 227, 203);
+    background-color: #591F0B;
+    border: none;
+    transition: color 0.5s, background-color 0.5s, border 0.5s;
+}
+
+.To-Browsing:hover
+{
+    color: #591F0B;
+    background-color: rgb(255, 227, 203);
+    border: 1px solid #591F0B;
+    cursor: pointer;
+}
+
+.browsing-button
+{
+    display: flex;
+    justify-content: center;
+}

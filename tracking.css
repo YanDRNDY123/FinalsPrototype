@@ -1,0 +1,163 @@
+*
+{
+    margin: 0;
+    font-family: Roboto;
+    color: #591F0B;
+}
+
+.body
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebarNav
+{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 200px;
+    height: 700px;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.logo
+{
+    width: 90px;
+    margin-bottom: 30px;
+}
+
+.links
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.links a
+{
+    text-decoration: none;
+    font-style: Roboto;
+    font-size: 18px;
+    padding: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.links a:hover
+{
+    background-color: #591F0B;
+    color: #ffe3cb;
+} 
+
+.myPurchaseSection
+{
+    background-color: #591F0B;
+    color: #ffe3cb;
+}
+
+.content
+{
+    margin-left: 200px;
+    padding: 16px 20px;
+}
+
+.order-segment
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.top
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15px;
+    justify-content: end;
+    margin-bottom: 25px;
+}
+
+.lineq
+{
+    font-size: 18px;
+}
+
+.middle
+{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    padding: 0 16px;
+}
+
+.tracking-icons
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.middle-middle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}
+
+.buyAgainBtn
+{
+    font-size: 16px;
+    padding: 10px 35px;
+    border-radius: 4px;
+    border: none;
+    color: #ffe3cb;
+    background-color: #591F0B;
+    font-weight: bold;
+}
+
+.contactUsBtn
+{
+    font-size: 16px;
+    padding: 6px 32px;
+    border-radius: 4px;
+    border: 1px solid #591F0B;
+    color: #591F0B;
+    background-color: #ffe3cb;
+}
+
+.bottom-header
+{
+    padding: 0 16px;
+}
+
+.middle-bottom
+{
+    text-align: end;
+    margin-bottom: 25px;
+}
+
+.bottom-header
+{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-size: 20px;
+}
+
+.update
+{
+    padding-left: 500px;
+    line-height: 35px;
+}
+
+.backBtn
+{
+    font-size: 18px;
+}
+
+.backBtn
+{
+    text-decoration: none;
+    color: #591F0B;
+}
